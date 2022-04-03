@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+header {
+  min-height: 10vh;
+  padding-top: 3.5rem;
+}
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  min-height: 90vh;
+  overflow: hidden;
+}
+.hero {
+  margin-top: 2rem;
+}
+.hero-image {
+  position: relative;
+}
+.actual-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.actual-image img {
+  width: 95%;
+}
+.blue {
+  height: 20rem;
+  width: 30rem;
+  background: #5368df;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+  z-index: -10;
+}
+.hero-intro {
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.hero-intro h1 {
+  font-size: 3rem;
+}
