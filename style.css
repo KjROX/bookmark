@@ -51,11 +51,11 @@ main {
   z-index: -10;
 }
 .hero-intro {
-  margin-top: 3rem;
+  margin-top: 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 .hero-intro h1 {
   font-size: 3rem;
@@ -84,4 +84,96 @@ main {
 .buttons button:hover {
   color: white;
   background-color: #5368df;
+}
+.features-section {
+  margin-top: 7rem;
+}
+.features-intro {
+  text-align: center;
+  margin: 2rem auto;
+}
+.features-intro h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.features-intro p {
+  width: 90%;
+  margin: auto;
+  font-size: 1.5rem;
+  color: #9194a1;
+}
+.three-criterias {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #9194a1;
+}
+.three-criterias li {
+  width: 100%;
+  list-style: none;
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: #8f909e;
+  border-top: 1px solid #9194a1;
+  cursor: pointer;
+}
+.three-criterias li strong {
+  font-weight: 400;
+  padding: 2rem 0rem;
+}
+.three-criterias li strong:hover {
+  color: black;
+  border-bottom: 5px solid #f3474a;
+}
+.explaination {
+  margin: 7rem 0rem;
+}
+.explaination-image {
+  position: relative;
+}
+.actual-image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actual-image2 img {
+  width: 80%;
+}
+.blue2 {
+  height: 20rem;
+  width: 30rem;
+  background: #5368df;
+  position: absolute;
+  left: 0;
+  bottom: -35px;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  z-index: -10;
+}
+.explaination-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 7rem auto;
+  gap: 1.5rem;
+}
+.explaination-description h1 {
+  font-size: 2.5rem;
+}
+.explaination-description p {
+  color: #9194a1;
+  font-size: 1.5rem;
+}
+.explaination-description button {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  color: white;
+  background: #5368df;
+  border-radius: 5px;
 }
